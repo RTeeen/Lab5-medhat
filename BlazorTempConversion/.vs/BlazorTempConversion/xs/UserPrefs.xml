@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A68A15D1-9AD1-4717-A685-1EE07E662B84}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormInput.cs">
+    <Files>
+      <File FileName="../TemperatureTests/UnitTest.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="3" Column="1" />
+      <File FileName="FormInput.cs" Line="2" Column="1" />
+      <File FileName="Conversion.cs" Line="3" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorTempConversion" expanded="True">
+            <Node name="BlazorTempConversion" expanded="True">
+              <Node name="FormInput.cs" selected="True" />
+            </Node>
+            <Node name="TemperatureTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlazorTempConversion PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

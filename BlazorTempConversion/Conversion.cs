@@ -20,19 +20,19 @@ namespace BlazorTempConversion
                     result = (9d/5d * temperature) + 32d;
                     break;
                 case ConversionMode.Kelvin_to_Fahrenheit:
-                    result = Convert(Conversion.ConversionMode.Celsius_to_Fahrenheit, (temperature - 273.15));
+                    result = Convert(Conversion.ConversionMode.Celsius_to_Fahrenheit, (temperature - 273));
                     break;
                 case ConversionMode.Fahrenheit_to_Celsius:
                     result = (temperature - 32) / 1.8;
                     break;
                 case ConversionMode.Celsius_to_Kelvin:
-                    result = temperature + 273.15;
+                    result = temperature + 273;
                     break;
                 case ConversionMode.Kelvin_to_Celsius:
-                    result = temperature - 273.15;
+                    result = temperature - 273;
                     break;
                 case ConversionMode.Fahrenheit_to_Kelvin:
-                    result = Convert(Conversion.ConversionMode.Fahrenheit_to_Celsius, temperature) + 273.15;
+                    result = Convert(Conversion.ConversionMode.Fahrenheit_to_Celsius, temperature) + 273;
                     break;
             }
             return Math.Round(result, 2);

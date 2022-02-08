@@ -809,7 +809,6 @@
 /Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/scopedcss/bundle/BlazorTempConversion.styles.css
 /Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/scopedcss/projectbundle/BlazorTempConversion.bundle.scp.css
-/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/BlazorTempConversion.csproj.CopyComplete
 /Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/BlazorTempConversion.dll
 /Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/ref/BlazorTempConversion.dll
 /Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/Debug/net6.0/BlazorTempConversion.pdb

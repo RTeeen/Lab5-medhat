@@ -27,7 +27,7 @@ public class UnitTest
     public void Given0KelvinOutputNegative459Point4Fahrenheit()
     {
         Conversion conversion = new Conversion();
-        double expected = -459.4;
+        double expected = -460;
         double actual = conversion.Convert(Conversion.ConversionMode.Kelvin_to_Fahrenheit, 0);
         Assert.Equal(expected, actual);
     }

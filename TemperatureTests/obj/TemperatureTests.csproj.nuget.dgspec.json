@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/TemperatureTests/TemperatureTests.csproj": {}
+    "/Users/artinpeyvasteh/Desktop/Lab15/TemperatureTests/TemperatureTests.csproj": {}
   },
   "projects": {
-    "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/Temperature/Temperature.csproj": {
+    "/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/BlazorTempConversion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/Temperature/Temperature.csproj",
-        "projectName": "Temperature",
-        "projectPath": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/Temperature/Temperature.csproj",
+        "projectUniqueName": "/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/BlazorTempConversion.csproj",
+        "projectName": "BlazorTempConversion",
+        "projectPath": "/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/BlazorTempConversion.csproj",
         "packagesPath": "/Users/artinpeyvasteh/.nuget/packages/",
-        "outputPath": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/Temperature/obj/",
+        "outputPath": "/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/artinpeyvasteh/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21452.15, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21452.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,6 +58,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.0-rc.1.21451.13, 6.0.0-rc.1.21451.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -54,16 +71,21 @@
           },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.1.21458.32/RuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
       }
     },
-    "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/TemperatureTests/TemperatureTests.csproj": {
+    "/Users/artinpeyvasteh/Desktop/Lab15/TemperatureTests/TemperatureTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/TemperatureTests/TemperatureTests.csproj",
+        "projectUniqueName": "/Users/artinpeyvasteh/Desktop/Lab15/TemperatureTests/TemperatureTests.csproj",
         "projectName": "TemperatureTests",
-        "projectPath": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/TemperatureTests/TemperatureTests.csproj",
+        "projectPath": "/Users/artinpeyvasteh/Desktop/Lab15/TemperatureTests/TemperatureTests.csproj",
         "packagesPath": "/Users/artinpeyvasteh/.nuget/packages/",
-        "outputPath": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/TemperatureTests/obj/",
+        "outputPath": "/Users/artinpeyvasteh/Desktop/Lab15/TemperatureTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/artinpeyvasteh/.nuget/NuGet/NuGet.Config"
@@ -78,8 +100,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/Temperature/Temperature.csproj": {
-                "projectPath": "/Users/artinpeyvasteh/Desktop/TemperatureConversionBlazor/Temperature/Temperature.csproj"
+              "/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/BlazorTempConversion.csproj": {
+                "projectPath": "/Users/artinpeyvasteh/Desktop/Lab15/BlazorTempConversion/BlazorTempConversion.csproj"
               }
             }
           }
